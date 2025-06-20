@@ -56,6 +56,10 @@ body {
     background-color: #292929;
 }
 
+a{
+    text-decoration: none;
+}
+
 .top-btns {
     transform: translateX(-45px);
 }
@@ -120,9 +124,9 @@ header .icons button:hover {
     flex-direction: column;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     position: relative;
-    min-width: 200px;
-    width: 100%;
-    max-width: 600px;
+    width: fit-content;
+    min-width: 350px;
+    max-width: calc(100vw -10px);
 }
 
 .task-card .name {
@@ -339,8 +343,7 @@ option {
   }
 
   .task-card {
-    width: 100%;
-    max-width: 100%;
+    
     padding: 12px;
   }
 
@@ -413,6 +416,7 @@ option {
 
   .task-card {
     padding: 10px;
+    max-width: calc(100vw -10px);
   }
 
   .task-card .name {

@@ -416,7 +416,7 @@ option {
 
   .task-card {
     padding: 10px;
-    max-width: calc(100vw -10px);
+    max-width: calc(100vw -20px);
   }
 
   .task-card .name {
@@ -489,6 +489,10 @@ option {
     font-size: 0.9rem;
   }
 
+ .task-card {
+     max-width: calc(100vw - 20px);
+ }
+    
   .task-card .name {
     font-size: 0.95rem;
   }
